@@ -1,9 +1,276 @@
+html{
+  overflow-x:hidden;
+
+}
+
 #drivs {
   height: 50px;
   width: 50px;
 }
 
 #crowd {
-  height: 90%;
+  height: 100%;
   width: 100%;
+  min-height: 600px;
+  min-width: 800px;
+
+
+}
+
+/*.nav {
+  font-family: impact;
+  color: inherit;
+  background-color: #F11660;
+}*/
+/*
+.body{
+  padding-bottom: 0px;
+  margin: 0px, auto;
+}*/
+
+.thisnavbar{
+background-color: #F11660;
+opacity: .70;
+}
+
+.footer1{
+  text-align: right;
+  float: right;
+}
+
+.crowdtext{
+margin-top: 0px;
+
+}
+
+.bigbanner{
+    position: absolute;
+    font-family: Arial;
+    font-size: 7rem;
+    font-weight: bold;
+    color: orange;
+    top: 240px;
+    margin-left: 20px;
+}
+
+.smallbanner{
+    position: relative;
+    font-family: Arial;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+    color: 888888;
+    bottom: 120px;
+    margin-left: 20px;
+}
+
+.smallerbanner{
+    position: relative;
+    font-family: Arial;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+    color: 888888;
+    bottom: 100px;
+}
+
+h3{
+
+
+}
+
+h4{
+    position: absolute;
+    font-weight: normal;
+    color: #ffffff;
+    text-align: left;
+    bottom: 0px;
+    left: 12px;
+
+
+}
+
+#greybackground {
+  width: 100%;
+  background-color: #D3D3D3;
+padding-top: 80px;
+}
+
+.header {
+    color: #36A0FF;
+    font-size: 27px;
+    padding: 10px;
+}
+
+
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
+}
+
+.col-md-2{
+  align-items: right;
+
+}
+.leftmargin{
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+#skills1{
+  background-color: #A8A8A8;
+  padding: 80px;
+  margin-bottom: 0px;
+
+}
+.container{
+    padding-top: 80px;
+}
+.seria{
+  min-width: 200px;
+  min-height:400px;
+  height: 80%;
+  width:80%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+}
+
+.education{
+  background-color: #808080;
+  padding-top: 80px;
+
+}
+
+.left{
+margin-left: 20px;
+}
+
+.bach{
+  font-size: 24px;
+  font-style: Helvetica;
+}
+
+.codetrott{
+  font-size: 24px;
+  font-style: Helvetica;
+}
+
+
+.contactme {
+  color: #FF6600;
+  font-size: 24px;
+  font-family: Helvetica,sans-serif;
+
+
+}
+
+.skills{
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+
+.boston{
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.skillsimages{
+  margin-top: 100px;
+}
+
+.html1{
+  height: 40%;
+  width: 40%;
+  float: center;
+  margin-bottom: 40px;
+
+
+}
+
+.css1{
+  height:30%;
+  width: 30%;
+ float:center;
+  margin-bottom: 40px;
+}
+
+.live{
+  height:30%;
+  width: 30%;
+ float:center;
+  margin-bottom: 40px;
+
+}
+
+.logic{
+  height:40%;
+  width: 40%;
+ float:center;
+  margin-bottom: 40px;
+  margin-left: 15%;
+
+
+}
+
+
+
+.neu{
+  height:80%;
+  width: 80%;
+ float:center;
+  margin-bottom: 40px;
+
+
+
+}
+
+.trotters{
+  height:80%;
+  width: 80%;
+  float:center;
+  margin-bottom: 40px;
+  margin-top: 20px;
+
+}
+
+.lafoto{
+  position: relative;
+  height: 568px;
+  width: 320px;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 500px;
+
+}
+
+.profiletext {
+  text-align: center;
+
+}
+
+
+.aboutme{
+  text-align: justify;
+  font-style: Arial;
+  font-size: 16px;
+}
+
+.profile{
+  background-color: #E0823F;
+  width: 100%;
+}
+
+.workhistory{
+  font-size: 20px;
+  color: #20B8B0;
+  font-family: Helvetica;
+
+
 }

@@ -8,26 +8,174 @@
           <!-- Optional theme -->
           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
 
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
           <link rel="stylesheet" href="main.css">
 </head>
 <body>
-
-  <nav class="navbar navbar-default">
+  <nav class="navbar-inverse navbar-fixed-top thisnavbar">
     <div class="container-fluid">
       <div class="navbar-header">
         <!-- <a class="navbar-brand" href="#">WebSiteName</a> -->
-        <a  href="index.html"><img id="drivs" src= "/phase 1 images/logo.jpg"></a>
+        <a  href="index.html"><img id="drivs" src= "images/logo.jpg"></a>
       </div>
       <div>
         <ul class="nav navbar-nav">
           <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">ABOUT</a></li>
-          <li><a href="#">RESUME</a></li>
-          <li><a href="#">CONTACT</a></li>
+          <li><a href="#greybackground">CONTACT</a></li>
+          <li><a href="#education">RESUME</a></li>
+          <li><a href="#aboutme">ABOUT</a></li>
+
         </ul>
       </div>
     </div>
   </nav>
+<div>
+<!-- moved text -->
+  <div>
+
+    <div>
+    <img  id="crowd" src= "images/1176311_1384807011747222_1917680804_n.jpg">
+     <h1 class="bigbanner">DANIEL RIVERO WEB DESIGN <br> ウェブデザイン</h1>
+     <!-- encoding error -->
+     <h3 class="smallbanner">
+        <p> "Music expresses that which cannot be said and on which it is impossible to be silent."
+        <br>-Victor Hugo</p>
+     </h3>
+     <h4 class="smallerbanner"> <p>&copy; 2015 Daniel Rivero</p>
+     <!-- Closed h4 -->
+     </h4>
+
+</div>
+<div class="container" id="greybackground">
+<div class="row">
+  <div class="col-md-12">
+
+    <!-- <small><i></i>Add alerts if form ok... success, else error.</i></small>
+  <div class="alert alert-success"><strong><span class="glyphicon glyphicon-send"></span> Success! Message sent. (If form ok!)</strong></div>
+    <div class="alert alert-danger"><span class="glyphicon glyphicon-alert"></span><strong> Error! Please check the inputs. (If form error!)</strong></div> -->
+  </div>
+  <form role="form" action="" method="post" >
+    <div class="col-lg-6">
+      <!-- <div class="well well-sm"><strong><i class="glyphicon glyphicon-ok form-control-feedback"></i> Required Field</strong></div> -->
+      <div class="form-group">
+        <label for="InputName">Your Name</label>
+        <div class="input-group">
+          <input type="text" class="form-control" name="InputName" id="InputName" placeholder="Enter Name" required>
+          <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span></div>
+      </div>
+      <div class="form-group">
+        <label for="InputEmail">Your Email</label>
+        <div class="input-group">
+          <input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Enter Email" required  >
+          <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span></div>
+      </div>
+      <div class="form-group">
+        <label for="InputMessage">Message</label>
+        <div class="input-group">
+          <textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" required></textarea>
+          <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span></div>
+      </div>
+      <!-- <div class="form-group">
+        <label for="InputReal">What is 4+3? (Simple Spam Checker)</label>
+        <div class="input-group">
+          <input type="text" class="form-control" name="InputReal" id="InputReal" required>
+          <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span></div>
+      </div> -->
+      <input type="submit" name="submit" id="submit" value="Submit" class="btn btn-info pull-right">
+    </div>
+  </form>
+  <hr class="featurette-divider hidden-lg">
+  <div class="col-lg-5 col-md-push-1">
+    <address>
+    <h3 class ="contact">You can contact me at:</h3>
+    <br>
+      <br>
+      <br>
+      <p class="contactme">
+        Phone: 787.615.2093<br>
+        E-mail: danielrivero4@gmail.com
+      </p>
+    </address>
+  </div>
+</div>
+</div>
+
+<div id ="skills1">
+<div>
+  <h2 class= "skills">
+  SKILLS スキル
+
+  </h2>
+</div>
+
+<div class="skillsimagesA">
+  <img  class="html1" src= "images/HTML5_Logo_512.png">
+  <img  class="css1" src= "images/css3.png">
+
+</div>
+
+<div class="skillsimagesB">
+  <img  class="live" src= "images/Ableton_logo_screen.png">
+  <img  class="logic" src="images/logicprox.jpg">
+
+</div>
+</div>
+<div class="education" id="education">
+
+<div class="leftmargin">
+
+  <h1 class= "boston">EDUCATION</h1>
+  <!-- <h2>Northeastern University; Boston, MA 2011<h2> -->
+    <img class="neu" src="images/northeastern-university.png">
+    <p class= "bach">Northeastern University, Boston, MA<br>Bachelor of Arts & Science in Music<br>
+    Minor in Business 2011</p>
+    <img class="trotters" src="images/ct_logo.png">
+    <p class ="codetrott"> CodeTrotters Academy @ Piloto 151, San Juan, PR<br>
+      Intro to Web Development 2015
+<div>
+
+  <div>
+      <h1 class= "boston">WORK</h1>
+        <div col-md-2>
+        <ul class= "workhistory">
+        <li>Lyft</li>
+        <li>Uber</li>
+        <li>NBC's The Voice</li>
+        <li>GRB Entertainment</li>
+        <li>Guitar Center</li>
+        <li> D RIVS Music </li>
+      </ul>
+      <div>
+</div>
+  </div>
+  <iframe width="100%" height="150" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/109998018&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+
+    </div>
+</div>
+</div>
+
+<div class= "profile" id="aboutme">
+<div class="leftmargin">
+   <h1 class= "boston">ABOUT ME </h1>
+
+ <p class= "aboutme">Daniel Rivero grew up in San Juan, Puerto Rico during the 1990s being exposed to massive exponential technological changes & innovation. He is completely bilingual and bicultural and he has been able to acclimate and adapt to different enviornments very quickly by moving often.
+<br><br>
+  Daniel attended Northeastern University in Boston, a university known for its co-op & experiential learning opportunites.
+  He has worked in the intense fast-paced world of film & TV in Los Angeles, and is also a talented music producer and Sound Engineer.
+  He has also worked as a driver for ride-share platforms Uber & Lyft. In his spare him he enjoys the beach and the outdoors. </p>
+
+
+ <!-- <a href ="http://imgur.com/oIlxFOj"><img class="lafoto" src="http://i.imgur.com/oIlxFOj.png" title="source: imgur.com" /></a> -->
+ <img class="seria" src="images/foto_seria.jpg">
+
+ <h1 class="profiletext"> <strong>DANIEL RIVERO </strong></h1>
+
+</div>
+
+</div>
+</div>
 </body>
-<img  id="crowd" src= "/phase 1 images/1176311_1384807011747222_1917680804_n.jpg">
+
+
 </html>
